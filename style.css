@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+#div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 2rem;
+    margin-top: 50px;
+    padding: 10px;
+}
