@@ -4,14 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Olga und Mohab</title>
+    <title>A Prettier Form</title>
   </head>
   <body>
-    <h1>Olga und Mohab</h1>
-    <div id="div1"></div>
-    <button id="M" onclick="helloM(arr)">Mohab</button>
-    <button id="O" onclick="helloO(arr)">Olga</button>
-    <div>hallo</div>
-    <script src="index.js"></script>
+    <div>
+      <form action="">
+        <h1>Tell us more</h1>
+        <label for="First Name">First Name</label>
+        <input
+          type="text"
+          name="First Name"
+          id="First Name"
+          placeholder="First Name"
+        />
+        <label for="Last Name">Last Name</label>
+        <input
+          type="text"
+          name="Last Name"
+          id="Last Name"
+          placeholder="Last Name"
+        />
+        <label for="email">Your email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Tell us how to contact you"
+        />
+        <label for="Message">Tell us about yourself</label>
+        <textarea name="Message" id="Message" rows="5"></textarea>
+        <label class="text">Want to know more?</label>
+        <label class="switch"
+          >
+          <input type="checkbox" />
+          <span class="round"></span>
+        </label>
+        <br />
+        <input type="submit" disabled>
+      </form>
+    </div>
   </body>
 </html>
+
