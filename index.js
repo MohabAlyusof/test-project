@@ -8,10 +8,9 @@ let div = document.getElementById("Message");
 let bM = document.getElementById("M");
 let bO = document.getElementById("O");
 function helloM(arr) {
-  e.preventDefault();
+  // e.preventDefault();
   div.innerHTML = arr[0];
 }
 function helloO(arr) {
   div.innerHTML = arr[1];
 }
-
