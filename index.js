@@ -3,7 +3,7 @@ function text() {
 }
 
 let arr = ["Mohab", "Olga", "Guest"];
-let div = document.getElementById("div1");
+let div = document.getElementById("Message");
 let bM = document.getElementById("M");
 let bO = document.getElementById("O");
 function helloM(arr) {
